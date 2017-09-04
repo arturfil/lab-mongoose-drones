@@ -4,5 +4,26 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: red;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-header {
+  text-align: center;
+}
+
+.form-container form {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.form-button {
+  margin-top: 20px;
+  background-color: green;
+  color: white;
+  border-radius: 15px;
 }

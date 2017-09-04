@@ -1,21 +1,29 @@
-<h2> Enter new Drone </h2>
+<h2 class="form-header"> Enter new Drone </h2>
 
-<form class="" action="/drones" method="post">
+<div class="form-link">
+  <a href="/drones" >Return</a>
+</div>
 
-  <label for="drones-name-input">Name of Drone</label>
-  <br>
-  <input id="drones-name-input" type="text" name="droneName">
-  <br>
+<div class="container">
+  <div class="form-container">
+    <form class="" action="/drones" method="post">
 
-  <label for="drones-propeller-input">Propellers of Drone</label>
-  <br>
-  <input id="drones-propeller-input"type="number" name="dronePropeller">
-  <br>
+      <label for="drones-name-input">Name of Drone</label>
+      <br>
+      <input id="drones-name-input" type="text" name="droneName">
+      <br>
 
-  <label for="drones-maxSpeed-input">Max Speed of Drone</label>
-  <br>
-  <input id="drones-maxSpeed-input"type="number" name="droneMaxSpeed">
-  <br>
-  
-  <button>Submit</button>
-</form>
+      <label for="drones-propeller-input">Propellers of Drone</label>
+      <br>
+      <input id="drones-propeller-input"type="number" name="dronePropeller">
+      <br>
+
+      <label for="drones-maxSpeed-input">Max Speed of Drone</label>
+      <br>
+      <input id="drones-maxSpeed-input"type="number" name="droneMaxSpeed">
+      <br>
+
+      <button class="form-button">Submit</button>
+    </form>
+  </div>
+</div>
